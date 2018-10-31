@@ -1,0 +1,27 @@
+{
+  "name": "metallica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/app.js",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "graphql-schema-decorator": "^0.8.0",
+    "typescript-require": "^0.2.9-1"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/jasmine": "^2.6.2",
+    "@types/node": "^8.0.47",
+    "nodemon": "^1.18.5"
+  },
+  "scripts": {
+    "start": "node lib/app.js",
+    "dev" : "nodemon --exec node lib/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
